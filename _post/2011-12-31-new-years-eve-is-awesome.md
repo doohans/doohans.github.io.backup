@@ -1,7 +1,6 @@
 ---
 layout: post
-title: A Trip
-category: [ blog, travel ]
+title: new-years-eve-is-awesome
 ---
 
 
