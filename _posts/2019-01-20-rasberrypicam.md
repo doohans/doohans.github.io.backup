@@ -14,10 +14,17 @@
 
 https://www.raspberrypi.org/downloads/raspbian/
 
-가이드대로 설치하고 raspi-config에가서 wifi 설정을 해준다. 5번 항목인 interfacing Options 항목에서 P1 Camera와 P2 SSH 를 활성화 한다. 
+가이드대로 설치하고 raspi-config에가서 wifi 설정을 해준다. 
 
+![2019-01-20 09-20-23](https://user-images.githubusercontent.com/19382541/51433745-ae81f200-1c94-11e9-9350-67baf3784d27.png)
+
+5번 항목인 interfacing Options 항목에서 P1 Camera와 P2 SSH 를 활성화 한다. 
+
+![2019-01-20 09-21-34](https://user-images.githubusercontent.com/19382541/51433752-d1aca180-1c94-11e9-9d6c-394c6aa719be.png)
 
 ### 2.Motion 최신버전 설치
+
+아래 출처의 사이트의 방법으로 하니 매우 쉽게 설정이 되었다.
 
 [출처]
 https://www.bouvet.no/bouvet-deler/utbrudd/building-a-motion-activated-security-camera-with-the-raspberry-pi-zero
@@ -50,3 +57,5 @@ motion
 ```
 
 라즈베리파이 재기동 후 접속할 단말 브라우저에서 http://라즈베리파이ip:8080 하면 webcontrol 화면이 나오고 정상적이라면 하나의 카메라가 활성화 된게 보인다.
+
+![2019-01-20 09-24-29](https://user-images.githubusercontent.com/19382541/51433807-97dc9a80-1c96-11e9-9356-5220912d05aa.png)
